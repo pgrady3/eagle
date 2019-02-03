@@ -1435,6 +1435,50 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="3.81" y="-2.54" size="0.889" layer="27" ratio="11" rot="R90">&gt;value</text>
 <rectangle x1="-2.54" y1="-3.81" x2="2.54" y2="3.81" layer="39"/>
 </package>
+<package name="MICRO-SD9+4P-SMD-16.1X14.5X1.85MM">
+<wire x1="1.143" y1="7.429" x2="14.986" y2="7.429" width="0.127" layer="51"/>
+<wire x1="14.986" y1="7.429" x2="14.986" y2="4.8979" width="0.127" layer="21"/>
+<wire x1="14.986" y1="4.8979" x2="14.802" y2="3.898" width="0.127" layer="21" curve="-20.855518"/>
+<wire x1="14.802" y1="3.898" x2="13.97" y2="-0.6231" width="0.127" layer="21" curve="20.85427"/>
+<wire x1="13.97" y1="-0.6231" x2="13.97" y2="-7.557" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-7.557" x2="0" y2="-7.557" width="0.127" layer="51"/>
+<wire x1="0" y1="-7.557" x2="0" y2="6.032" width="0.127" layer="51"/>
+<wire x1="0" y1="6.032" x2="1.143" y2="6.032" width="0.127" layer="51"/>
+<wire x1="1.143" y1="6.032" x2="1.143" y2="7.429" width="0.127" layer="51"/>
+<smd name="1" x="0" y="2.25" dx="1.6" dy="0.7" layer="1"/>
+<smd name="2" x="0" y="1.15" dx="1.6" dy="0.7" layer="1"/>
+<smd name="3" x="0" y="0.05" dx="1.6" dy="0.7" layer="1"/>
+<smd name="4" x="0" y="-1.05" dx="1.6" dy="0.7" layer="1"/>
+<smd name="5" x="0" y="-2.15" dx="1.6" dy="0.7" layer="1"/>
+<smd name="6" x="0" y="-3.25" dx="1.6" dy="0.7" layer="1"/>
+<smd name="7" x="0" y="-4.35" dx="1.6" dy="0.7" layer="1"/>
+<smd name="8" x="0" y="-5.45" dx="1.6" dy="0.7" layer="1"/>
+<smd name="9" x="0" y="-6.55" dx="1.6" dy="0.7" layer="1"/>
+<smd name="G1" x="0.6" y="-7.85" dx="1.6" dy="1.4" layer="1"/>
+<smd name="G2" x="10.1" y="-7.85" dx="2.2" dy="1.4" layer="1"/>
+<smd name="G4" x="0.5" y="6.95" dx="1.4" dy="1.8" layer="1"/>
+<smd name="G3" x="10.1" y="7.85" dx="2.2" dy="1.4" layer="1"/>
+<text x="2.54" y="7.747" size="0.889" layer="25" ratio="11">&gt;name</text>
+<text x="3.175" y="-3.81" size="0.635" layer="27" ratio="10" rot="R90">&gt;value</text>
+<text x="4.826" y="2.159" size="0.254" layer="33" ratio="10">&gt;name</text>
+<rectangle x1="0" y1="-7.493" x2="13.97" y2="7.366" layer="39"/>
+<hole x="10.5" y="-4.95" drill="0.9"/>
+<hole x="10.5" y="3.05" drill="0.9"/>
+<rectangle x1="4.4" y1="-6.1" x2="6.4" y2="2.9" layer="41"/>
+<wire x1="15" y1="7.43" x2="11.4" y2="7.43" width="0.127" layer="21"/>
+<wire x1="8.8" y1="7.43" x2="1.4" y2="7.43" width="0.127" layer="21"/>
+<wire x1="0" y1="5.9" x2="0" y2="2.8" width="0.127" layer="21"/>
+<wire x1="0" y1="1.8" x2="0" y2="1.6" width="0.127" layer="21"/>
+<wire x1="0" y1="0.7" x2="0" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.4" x2="0" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.5" x2="0" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.6" x2="0" y2="-2.8" width="0.127" layer="21"/>
+<wire x1="0" y1="-3.7" x2="0" y2="-3.9" width="0.127" layer="21"/>
+<wire x1="0" y1="-4.8" x2="0" y2="-5" width="0.127" layer="21"/>
+<wire x1="0" y1="-5.9" x2="0" y2="-6.1" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-7.56" x2="8.8" y2="-7.56" width="0.127" layer="21"/>
+<wire x1="11.4" y1="-7.56" x2="13.97" y2="-7.56" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ZX62-B-5PA(11)">
@@ -1469,6 +1513,33 @@ SMD type&lt;br&gt;</description>
 <pin name="4" x="8.89" y="-2.54" visible="pad" length="middle" rot="R180"/>
 <pin name="5" x="8.89" y="0" visible="pad" length="middle" rot="R180"/>
 <pin name="6" x="8.89" y="2.54" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="MICRO-SD-CARD-HOLDER-9P">
+<wire x1="-12.7" y1="11.43" x2="-12.7" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-11.43" x2="12.7" y2="-11.43" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-11.43" x2="12.7" y2="13.97" width="0.254" layer="94"/>
+<wire x1="12.7" y1="13.97" x2="6.35" y2="13.97" width="0.254" layer="94"/>
+<wire x1="6.35" y1="13.97" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="3.81" y2="12.7" width="0.254" layer="94"/>
+<wire x1="3.81" y1="12.7" x2="3.81" y2="13.97" width="0.254" layer="94"/>
+<wire x1="3.81" y1="13.97" x2="1.27" y2="13.97" width="0.254" layer="94"/>
+<wire x1="1.27" y1="13.97" x2="-1.27" y2="11.43" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="11.43" x2="-12.7" y2="11.43" width="0.254" layer="94"/>
+<text x="-13.97" y="12.7" size="1.27" layer="95" ratio="10">&gt;name</text>
+<text x="-7.62" y="12.7" size="1.27" layer="96" ratio="10">&gt;value</text>
+<pin name="DATA2" x="-17.78" y="10.16" length="middle"/>
+<pin name="CS" x="-17.78" y="7.62" length="middle"/>
+<pin name="DI" x="-17.78" y="5.08" length="middle"/>
+<pin name="VDD" x="-17.78" y="2.54" length="middle"/>
+<pin name="SCLK" x="-17.78" y="0" length="middle"/>
+<pin name="VSS" x="-17.78" y="-2.54" length="middle"/>
+<pin name="DO" x="-17.78" y="-5.08" length="middle"/>
+<pin name="DATA1" x="-17.78" y="-7.62" length="middle"/>
+<pin name="CDN" x="-17.78" y="-10.16" length="middle"/>
+<pin name="G4" x="7.62" y="19.05" length="middle" rot="R270"/>
+<pin name="G3" x="10.16" y="19.05" length="middle" rot="R270"/>
+<pin name="G1" x="7.62" y="-16.51" length="middle" rot="R90"/>
+<pin name="G2" x="10.16" y="-16.51" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1515,6 +1586,36 @@ SMD type&lt;br&gt;</description>
 <technology name="">
 <attribute name="MPN" value="P125-12A1BS116A1" constant="no"/>
 <attribute name="VALUE" value="2x3p-2.54" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICRO-SD-CARD-HOLDER-9P" prefix="J" uservalue="yes">
+<description>320090008</description>
+<gates>
+<gate name="G$1" symbol="MICRO-SD-CARD-HOLDER-9P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICRO-SD9+4P-SMD-16.1X14.5X1.85MM">
+<connects>
+<connect gate="G$1" pin="CDN" pad="9"/>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="DATA1" pad="8"/>
+<connect gate="G$1" pin="DATA2" pad="1"/>
+<connect gate="G$1" pin="DI" pad="3"/>
+<connect gate="G$1" pin="DO" pad="7"/>
+<connect gate="G$1" pin="G1" pad="G1"/>
+<connect gate="G$1" pin="G2" pad="G2"/>
+<connect gate="G$1" pin="G3" pad="G3"/>
+<connect gate="G$1" pin="G4" pad="G4"/>
+<connect gate="G$1" pin="SCLK" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="MICROSD-9P" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4981,6 +5082,7 @@ Silk outline shows header location.
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_04" device="" value="I2C2"/>
 <part name="J6" library="SparkFun-Connectors" deviceset="CONN_04" device="" value="GPS"/>
 <part name="K1" library="Seeed-Switch" deviceset="SMD-SWITCH-TACTILE-SPST-NO(4P-D6.0MM)" device=""/>
+<part name="J7" library="Seeed-Connector" deviceset="MICRO-SD-CARD-HOLDER-9P" device="" value="MICROSD-9P"/>
 </parts>
 <sheets>
 <sheet>
@@ -5065,6 +5167,7 @@ Silk outline shows header location.
 <instance part="J5" gate="G$1" x="342.9" y="233.68"/>
 <instance part="J6" gate="G$1" x="342.9" y="269.24"/>
 <instance part="K1" gate="G$1" x="358.14" y="93.98"/>
+<instance part="J7" gate="G$1" x="391.16" y="157.48"/>
 </instances>
 <busses>
 </busses>
