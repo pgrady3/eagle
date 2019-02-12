@@ -162,19 +162,11 @@
 <wire x1="91" y1="0" x2="91" y2="76" width="0" layer="20"/>
 <wire x1="91" y1="76" x2="0" y2="76" width="0" layer="20"/>
 <wire x1="0" y1="76" x2="0" y2="0" width="0" layer="20"/>
-<text x="63" y="52" size="3.81" layer="21">SEM</text>
+<text x="67" y="50" size="3.81" layer="21" rot="R90">SEM</text>
 <text x="45" y="64" size="3.81" layer="22" rot="MR0">SEM</text>
 <text x="45" y="55" size="1.778" layer="22" rot="MR0">BLDC Controller 1.1
 Designed by PLG, Feb 2019
 POLYBRUSEM, Shell Eco-Marathon</text>
-<text x="86.5" y="9" size="1.778" layer="22" rot="MR0">5v
-GND
-HALL A
-HALL B
-HALL C</text>
-<text x="86" y="54" size="1.778" layer="22" rot="MR0">THROTTLE
-5v
-GND</text>
 <text x="53" y="47" size="1.778" layer="21" rot="R90">FUSE</text>
 <text x="3" y="67" size="2.1844" layer="21">A</text>
 <text x="17" y="67" size="2.1844" layer="21">B</text>
@@ -184,6 +176,14 @@ GND</text>
 <text x="80.5" y="10.6" size="2.1844" layer="21" rot="R90">HALL</text>
 <text x="80.2" y="50.4" size="2.1844" layer="21">THROT</text>
 <text x="4" y="29" size="2.54" layer="21" rot="R90">POLYBRUSEM</text>
+<text x="87" y="20" size="1.016" layer="22" rot="MR270">GND</text>
+<text x="81" y="20" size="1.016" layer="22" rot="MR270">+5V</text>
+<text x="87" y="11" size="0.8128" layer="22" rot="MR270">HALL A</text>
+<text x="81" y="16" size="1.016" layer="22" rot="MR270">HALL B</text>
+<text x="87" y="16" size="0.8128" layer="22" rot="MR270">HALL C</text>
+<text x="81.2" y="60.6" size="0.8128" layer="22" rot="MR270">+5V</text>
+<text x="81.2" y="56.5" size="0.8128" layer="22" rot="MR270">GND</text>
+<text x="87" y="57" size="0.8128" layer="22" rot="MR270">THROT</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -321,9 +321,10 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="-2.7" y1="-2.125" x2="6.9" y2="-2.125" width="0.127" layer="21"/>
 <wire x1="6.9" y1="-2.125" x2="6.9" y2="7.625" width="0.127" layer="21"/>
 <wire x1="6.9" y1="7.625" x2="-2.7" y2="7.625" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="3.81" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="3.81" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-3.429" x2="3.175" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-3.429" x2="3.175" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.159" x2="0.635" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-2.159" x2="0.635" y2="-3.429" width="0.127" layer="21"/>
 </package>
 <package name="6PINVALULOK">
 <pad name="2" x="-6.35" y="-2.54" drill="1.6"/>
@@ -820,7 +821,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R8" library="SparkFun-Resistors" package="AXIAL-0.3" value="47k" x="74" y="58" rot="R180">
 <attribute name="PROD_ID" value=" " x="74" y="58" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$1" library="Custom_old" package="4PINVALULOK" value="HEADER4VALULOK" x="84" y="55"/>
+<element name="U$1" library="Custom_old" package="4PINVALULOK" value="HEADER4VALULOK" x="83.3" y="59.8" rot="R270"/>
 <element name="U$2" library="Custom_old" package="6PINVALULOK" value="HEADER6" x="85.8" y="12" rot="R270"/>
 </elements>
 <signals>
@@ -1357,9 +1358,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="79" y1="20" x2="80.57560625" y2="18.42439375" width="0.254" layer="16"/>
 <wire x1="80.57560625" y1="18.42439375" x2="80.755209375" y2="18.35" width="0.254" layer="16" curve="44.999295"/>
 <wire x1="80.755209375" y1="18.35" x2="83.26" y2="18.35" width="0.254" layer="16"/>
-<wire x1="72" y1="43.603" x2="83.32260625" y2="54.92560625" width="0.254" layer="1"/>
-<wire x1="83.32260625" y1="54.92560625" x2="83.502209375" y2="55" width="0.254" layer="1" curve="-44.999295"/>
-<wire x1="83.502209375" y1="55" x2="84" y2="55" width="0.254" layer="1"/>
+<wire x1="72" y1="43.603" x2="75" y2="46.603" width="0.4064" layer="1"/>
+<wire x1="75" y1="46.603" x2="75" y2="48" width="0.4064" layer="1"/>
+<wire x1="75" y1="48" x2="80" y2="53" width="0.4064" layer="1"/>
+<wire x1="80" y1="56.5" x2="83.3" y2="59.8" width="0.4064" layer="1"/>
+<wire x1="80" y1="53" x2="80" y2="56.5" width="0.4064" layer="1"/>
 </signal>
 <signal name="HALL_A">
 <contactref element="R4" pad="P$2"/>
@@ -1541,9 +1544,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$7">
 <contactref element="R8" pad="P$1"/>
 <contactref element="U$1" pad="3"/>
-<wire x1="77.81" y1="58" x2="85.594790625" y2="58" width="0.254" layer="1"/>
-<wire x1="88.2" y1="60.5" x2="85.77439375" y2="58.07439375" width="0.254" layer="1"/>
-<wire x1="85.77439375" y1="58.07439375" x2="85.594790625" y2="58" width="0.254" layer="1" curve="-44.999295"/>
+<wire x1="77.81" y1="58" x2="80.9" y2="58" width="0.4064" layer="16"/>
+<wire x1="80.9" y1="58" x2="81.5" y2="57.4" width="0.4064" layer="16"/>
+<wire x1="81.5" y1="57.4" x2="87" y2="57.4" width="0.4064" layer="16"/>
+<wire x1="87" y1="57.4" x2="88.8" y2="55.6" width="0.4064" layer="16"/>
 </signal>
 </signals>
 </board>

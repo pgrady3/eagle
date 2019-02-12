@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -360,9 +360,10 @@
 <wire x1="-2.7" y1="-2.125" x2="6.9" y2="-2.125" width="0.127" layer="21"/>
 <wire x1="6.9" y1="-2.125" x2="6.9" y2="7.625" width="0.127" layer="21"/>
 <wire x1="6.9" y1="7.625" x2="-2.7" y2="7.625" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="3.81" x2="-3.81" y2="3.81" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="3.81" x2="-3.81" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-3.429" x2="3.175" y2="-3.429" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-3.429" x2="3.175" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="3.175" y1="-2.159" x2="0.635" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-2.159" x2="0.635" y2="-3.429" width="0.127" layer="21"/>
 </package>
 <package name="6PINVALULOK">
 <pad name="2" x="-6.35" y="-2.54" drill="1.6"/>
