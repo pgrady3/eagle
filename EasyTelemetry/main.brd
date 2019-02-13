@@ -181,6 +181,8 @@
 <text x="26" y="1" size="1.4224" layer="22" rot="MR0">SCL</text>
 <text x="26" y="7" size="1.4224" layer="22" rot="MR0">SDA</text>
 <text x="31" y="7" size="1.4224" layer="22" rot="MR0">GND</text>
+<text x="72" y="21" size="1.778" layer="21" rot="R90">EasyTelemety 1.0
+Designed by PLG</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -1170,4 +1172,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
