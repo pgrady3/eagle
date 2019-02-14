@@ -6062,9 +6062,9 @@ Silk outline shows header location.
 <label x="190.5" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="PB0(SS)"/>
-<wire x1="124.46" y1="53.34" x2="134.62" y2="53.34" width="0.1524" layer="91"/>
-<label x="127" y="53.34" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="PB6(ADC13)"/>
+<wire x1="124.46" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
+<label x="129.54" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ANT" class="0">
@@ -6082,9 +6082,9 @@ Silk outline shows header location.
 <label x="233.68" y="68.58" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="PC7"/>
-<wire x1="124.46" y1="55.88" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
-<label x="127" y="55.88" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="PD7(ADC10)"/>
+<wire x1="124.46" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+<label x="129.54" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_5611_1" class="0">
@@ -6250,9 +6250,9 @@ Silk outline shows header location.
 <label x="93.98" y="228.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="PD7(ADC10)"/>
-<wire x1="124.46" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
-<label x="129.54" y="73.66" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="PC7"/>
+<wire x1="124.46" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
+<label x="129.54" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_5525_1" class="0">
@@ -6262,9 +6262,9 @@ Silk outline shows header location.
 <label x="162.56" y="228.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="PC6"/>
-<wire x1="124.46" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
-<label x="129.54" y="76.2" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="PB5(ADC12)"/>
+<wire x1="124.46" y1="66.04" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
+<label x="129.54" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -6312,9 +6312,9 @@ Silk outline shows header location.
 <label x="233.68" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="PB5(ADC12)"/>
-<wire x1="124.46" y1="66.04" x2="139.7" y2="66.04" width="0.1524" layer="91"/>
-<label x="129.54" y="66.04" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="PD6(ADC9)"/>
+<wire x1="124.46" y1="58.42" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
+<label x="129.54" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RFM_D2" class="0">
@@ -6324,9 +6324,9 @@ Silk outline shows header location.
 <label x="233.68" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="PB6(ADC13)"/>
-<wire x1="124.46" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
-<label x="129.54" y="63.5" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="PD4(ADC8)"/>
+<wire x1="124.46" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
+<label x="129.54" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V_RC" class="0">
@@ -6377,9 +6377,9 @@ Silk outline shows header location.
 <label x="332.74" y="96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="PD4(ADC8)"/>
-<wire x1="124.46" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
-<label x="129.54" y="78.74" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="PB4(ADC11)"/>
+<wire x1="124.46" y1="68.58" x2="139.7" y2="68.58" width="0.1524" layer="91"/>
+<label x="129.54" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_FLASH" class="0">
@@ -6401,9 +6401,9 @@ Silk outline shows header location.
 <label x="355.6" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="U1" pin="PF4(ADC4)"/>
-<wire x1="124.46" y1="104.14" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
-<label x="129.54" y="104.14" size="1.778" layer="95"/>
+<pinref part="U1" gate="U1" pin="PC6"/>
+<wire x1="124.46" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
+<label x="129.54" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RESET" class="0">
