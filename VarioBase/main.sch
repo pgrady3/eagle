@@ -2305,6 +2305,8 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <text x="129.54" y="101.6" size="1.778" layer="94">Accessories</text>
 <text x="167.64" y="101.6" size="1.778" layer="94">RTK, stupid pinout</text>
 <text x="205.74" y="101.6" size="1.778" layer="94">Bluetooth</text>
+<text x="58.42" y="137.16" size="1.778" layer="94">OOOOPS BACKWARDS!!!!!!!!!!!!!!
+5V flipped!!!!</text>
 </plain>
 <instances>
 <instance part="B1" gate="G$1" x="30.48" y="50.8" smashed="yes">
